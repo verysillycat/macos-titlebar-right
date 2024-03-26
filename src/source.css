@@ -1,14 +1,3 @@
-/**
-    * @name macOS Titlebar right
-    * @description Replicates the Discord macOS titlebar on Windows, but in the right.
-    * @version 2.0.0
-    * @author LuckFire#4800 edited by Cortex
-    *
-    * @invite vYdXbEzqDs
-    * @website https://github.com/discord-extensions
-    * @source https://github.com/verysillycat/macos-titlebar-right
-**/
-
 .platform-win .typeWindows__5fa63 {
   display: flex;
   flex-direction: row-reverse;
