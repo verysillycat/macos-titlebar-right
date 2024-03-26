@@ -1,0 +1,114 @@
+/**
+    * @name macOS Titlebar right
+    * @description Replicates the Discord macOS titlebar on Windows, but in the right.
+    * @version 2.0.0
+    * @author LuckFire#4800 edited by Cortex
+    *
+    * @invite vYdXbEzqDs
+    * @website https://github.com/discord-extensions
+    * @source https://github.com/verysillycat/macos-titlebar-right
+**/
+
+.platform-win .typeWindows__5fa63 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3px; 
+  margin-left: -7px;
+  width: 100%;
+  -webkit-app-region: drag;
+ }
+ 
+
+ .platform-win .typeWindows__5fa63 .wordmark__0d178 {
+  flex: 1 0 auto;
+  margin-right: 16px; 
+  -webkit-app-region: no-drag;
+ }
+
+ .platform-win .typeWindows__5fa63 .winButton__88672 {
+  width: 14px;
+  height: 14px;
+  margin-right: 8px; 
+  margin-top: 3px;
+  border-radius: 15px;
+  background-color: var(--background-primary);
+  background-size: 0;
+  -webkit-app-region: no-drag;
+  flex: 0 0 auto;
+ }
+ 
+.platform-win .typeWindows__5fa63 .winButton__88672 svg {
+  display: none;
+}
+.platform-win.app-focused .typeWindows__5fa63:hover div.winButton__88672 {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.platform-win.app-focused .typeWindows__5fa63 .winButtonClose__73489 {
+  background-color: #ff5c57;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUuMjkyODkgNkwyLjgxODAxIDMuNTI1MTNMMy41MjUxMiAyLjgxODAyTDUuOTk5OTkgNS4yOTI4OUw4LjQ3NDg3IDIuODE4MDJMOS4xODE5NyAzLjUyNTEzTDYuNzA3MSA2TDkuMTgxOTcgOC40NzQ4N0w4LjQ3NDg3IDkuMTgxOThMNS45OTk5OSA2LjcwNzExTDMuNTI1MTIgOS4xODE5OEwyLjgxODAxIDguNDc0ODdMNS4yOTI4OSA2WiIgZmlsbD0iI0EyMDAwOCIvPgo8L3N2Zz4=);
+}
+
+.platform-win.app-focused .typeWindows__5fa63 .winButtonMinMax__72f36:nth-child(2n) {
+  background-color: #fdbd3d;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDUuMzk5OTlIMlY2LjU5OTk5SDEwVjUuMzk5OTlaIiBmaWxsPSIjQjM3MTFBIi8+Cjwvc3ZnPg==);
+}
+.platform-win.app-focused .typeWindows__5fa63 .winButtonMinMax__72f36:nth-child(3n) {
+  order: 3;
+  background-color: #26c84b;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuMzkyOTMgMy4wMDg5M0wzLjAwODg3IDcuMzkyOTlMMi44MTc5NSAyLjgxODAxTDcuMzkyOTMgMy4wMDg5M1oiIGZpbGw9IiMwMjZBMTUiLz4KPHBhdGggZD0iTTQuNjA2OTUgOC45OTEwMUw4Ljk5MTAxIDQuNjA2OTVMOS4xODE5MyA5LjE4MTkzTDQuNjA2OTUgOC45OTEwMVogIiBmaWxsPSIjMDI2QTE1Ii8+Cjwvc3ZnPg==);
+}
+
+.notice__5fd4c, .bd-notice:first-child {
+  z-index: 103;
+  -webkit-app-region: drag;
+  border-radius: 0;
+}
+.notice__5fd4c button, .notice__5fd4c .closeIcon_ae6326, .bd-notice:first-child button, .bd-notice:first-child .closeIcon_ae6326 {
+  -webkit-app-region: no-drag;
+}
+
+.standardSidebarView__1129a {
+  z-index: unset;
+}
+.standardSidebarView__1129a .sidebarRegionScroller__1fa7e {
+  z-index: 103;
+}
+.standardSidebarView__1129a .contentRegion__0bec1 {
+  z-index: 103;
+}
+.standardSidebarView__1129a .contentColumn_dc7d36 {
+  -webkit-app-region: no-drag;
+}
+
+.platform-win .sidebar_ded4b5 {
+  border-radius: 0;
+}
+.platform-win .sidebar_ded4b5 .header__104ca, .platform-win .sidebar_ded4b5 .searchBar_e4ea2a {
+  z-index: 103;
+}
+.platform-win .sidebar_ded4b5 .header__104ca, .platform-win .sidebar_ded4b5 .searchBarComponent__22760 {
+  -webkit-app-region: no-drag;
+}
+.platform-win .sidebar_ded4b5 .searchBar_e4ea2a {
+  -webkit-app-region: drag;
+}
+
+.chat__52833 {
+  z-index: 103;
+}
+
+.container__11d72 {
+  z-index: 103;
+  -webkit-app-region: drag;
+}
+.container__11d72 .topic__16ae3,
+.container__11d72 .title_b7d661,
+.container__11d72 .nicknames__7447d > div,
+.container__11d72 .item_e4ca95,
+.container__11d72 .titleWrapper__482dc[role=button] {
+  -webkit-app-region: no-drag;
+}
