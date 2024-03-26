@@ -1,4 +1,4 @@
-![banner](https://discord-extensions.github.io/assets/banners/macos-titlebar.png)
+![banner](https://files.catbox.moe/uglu25.png)
 
 ---
 
