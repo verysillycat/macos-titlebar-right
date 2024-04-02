@@ -16,7 +16,7 @@
 https://raw.githubusercontent.com/verysillycat/macos-titlebar-right/master/src/source.css
 ```
 #### From `.theme.css` File
-1. [Download the theme](https://github.com/verysillycat/macos-titlebar-right/releases/download/V1.0/macos-titlebar-right.theme.css)
+1. [Download the theme](https://github.com/verysillycat/macos-titlebar-right/releases/download/V2.1/macos-titlebar-right.theme.css)
 2. Open your themes folder by going to the "Vencord" category in user settings (CTRL + ,), select the "Themes" tab, and press the "Open Themes Folder" button.
 3. Drag the file into that folder.
 
