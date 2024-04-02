@@ -3,7 +3,7 @@
 ---
 
 ### ![betterdiscord](https://discord-extensions.github.io/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
-1. [Download the theme](https://github.com/verysillycat/macos-titlebar-right/releases/download/V1.0/macos-titlebar-right.theme.css)
+1. [Download the theme](https://github.com/verysillycat/macos-titlebar-right/releases/download/V2.1/macos-titlebar-right.theme.css)
 2. Open your themes folder by going to the "BetterDiscord" category in user settings (CTRL + ,), selecting "Themes", and pressing the "Open Themes Folder" button.
 3. Drag the file into that folder.
 
